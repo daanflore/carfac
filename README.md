@@ -21,7 +21,7 @@ https://stackoverflow.com/questions/2846283/what-are-the-rules-for-javascripts-a
 ## Day #3
 Voorbeeld van een generieke service die de calls naar de API afhandelt (pseudo code):
 
-```
+```javascript
 import axios from 'axios'
 
 // the API-URLs to get the data from
@@ -45,10 +45,10 @@ export default new class CountryService{
 
 En in de component waar je dan de service wilt gebruiken, wordt deze geimporteerd:
 
-```
+```javascript
 import countryService from './services/CountryService'
 ...
-componentDidMount() {
+componentDidMount(){
     countryService.getCountries()
         .then(response => {
             this.setState({
@@ -58,6 +58,8 @@ componentDidMount() {
         })
 }
 ```
+
+- Lijst met veel beschikbare Public API's: https://github.com/public-apis/public-apis
 
 
 
