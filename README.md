@@ -60,6 +60,14 @@ componentDidMount(){
 ```
 
 - Lijst met veel beschikbare Public API's: https://github.com/public-apis/public-apis
+- Opinie(s) over het navigeren vanuit code met de router.Via componenten of via `history.push()`? - https://ui.dev/react-router-v4-programmatically-navigate/
+
+
+Bedankt voor jullie aanwezigheid en vragen tijdens de opleiding.
+
+Veel succes met React in uw werk!
+
+Peter.
 
 
 
